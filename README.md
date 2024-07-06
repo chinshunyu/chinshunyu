@@ -1,5 +1,5 @@
-![Name](https://github.com/chinshunyu/chinshunyu/blob/master/Hello(1).gif)
-![Name](https://github.com/chinshunyu/chinshunyu/tree/main/blob/master/Name.png)
+![Name](https://github.com/chinshunyu/chinshunyu/blob/main/blob/master/Hello(1).gif)
+![Name](https://github.com/chinshunyu/chinshunyu/blob/main/blob/master/Name.png)
 
 ### Profile Views :<br>
 
