@@ -7,13 +7,13 @@
 
 ### How to reach me: <strong>(Click the badge to view my profiles !)</strong>
  <a href="https://x.com/johncachyjp">
-    <img align="left" alt="Satyam Goyal | Twitter" width="26px" src="https://github.com/chinshunyu/chinshunyu/blob/master/Twitter.svg" />
+    <img align="left" alt="Satyam Goyal | Twitter" width="26px" src="https://github.com/chinshunyu/chinshunyu/blob/main/blob/master/Twitter.svg" />
   </a> &nbsp;&nbsp;
   <a href="https://www.instagram.com/john_cachy/">
-    <img align="left" alt="Satyam Goyal | Instagram" width="24px" src="https://github.com/chinshunyu/chinshunyu/blob/master/Instagram.svg" />
+    <img align="left" alt="Satyam Goyal | Instagram" width="24px" src="https://github.com/chinshunyu/chinshunyu/blob/main/blob/master/Instagram.svg" />
   </a> &nbsp;&nbsp;
   <a href="mailto:johncachyjp@gmail.com">
-    <img align="left" alt="Satyam Goyal | Gmail" width="26px" src="https://github.com/SatYu26/SatYu26/blob/master/Assets/Gmail.svg" />
+    <img align="left" alt="Satyam Goyal | Gmail" width="26px" src="https://github.com/chinshunyu/chinshunyu/blob/main/blob/master/Gmail.svg" />
   </a>
 
 
