@@ -1,9 +1,9 @@
-![Name](https://github.com/sharannyobasu/sharannyobasu/blob/master/Hello(1).gif)
-![Name](https://github.com/sharannyobasu/sharannyobasu/blob/master/Name.png)
+![Name](https://github.com/chinshunyu/chinshunyu/blob/master/Hello(1).gif)
+![Name](https://github.com/chinshunyu/chinshunyu/blob/master/Name.png)
 
 ### Profile Views :<br>
 
-<img src="https://profile-counter.glitch.me/shrannyobasu/count.svg" />
+<img src="https://profile-counter.glitch.me/chinshunyu/count.svg" />
 
 ### How to reach me: <strong>(Click the badge to view my profiles !)</strong>
  <a href="https://x.com/johncachyjp">
@@ -33,4 +33,4 @@
 
 <img src="https://github-readme-stats.vercel.app/api?username=sharannyobasu&show_icons=true&title_color=03fc90&icon_color=03fc90&text_color=03fc90&bg_color=002b19">
 
-⭐️ From [sharannyobasu](https://github.com/sharannyobasu)
+⭐️ From [sharannyobasu](https://github.com/chinshunyu)
