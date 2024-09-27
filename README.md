@@ -6,13 +6,13 @@
 <img src="https://profile-counter.glitch.me/chinshunyu/count.svg" />
 
 ### How to reach me: <strong>(Click the badge to view my profiles !)</strong>
- <a href="https://x.com/johncachyjp">
+  <a href="https://x.com/johncachyjp">
     <img align="left" alt="Satyam Goyal | Twitter" width="26px" src="https://github.com/chinshunyu/chinshunyu/blob/main/blob/master/Twitter.svg" />
   </a> &nbsp;&nbsp;
   <a href="https://www.instagram.com/john_cachy/">
     <img align="left" alt="Satyam Goyal | Instagram" width="24px" src="https://github.com/chinshunyu/chinshunyu/blob/main/blob/master/Instagram.svg" />
   </a> &nbsp;&nbsp;
-  <a href="mailto:johncachyjp@gmail.com">
+  <a href="mailto:ami@johncachy.us.kg">
     <img align="left" alt="Satyam Goyal | Gmail" width="26px" src="https://github.com/chinshunyu/chinshunyu/blob/main/blob/master/Gmail.svg" />
   </a>
 
@@ -20,7 +20,7 @@
 ### Here are some ideas to help you get started:
 
 - 🔭 I’m currently working on <strong>AI Development</strong> and <strong>Open Source Contributions</strong>
-- 🌱 I’m currently learning <strong>React JS</strong>
+- 🌱 I’m currently learning <strong>VUE JS</strong>
 - 🔍 I’m looking to collaborate on <strong>Front-End Web Dev Projects</strong>
 - 💬 Ask me about <strong>Data Structures in Python, JavaScript, Bootstrap, Graphic Designing (Canva), VCS and Personal Branding</strong>
 - ⚡ Fun fact: I can talk 24/7 about football.
