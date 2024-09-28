@@ -4,13 +4,13 @@ for freelance work? do reach, [email](mailto:ami@johncachy.us.kg) :)
 <!--START_SECTION:waka-->
 ![Code Time](http://img.shields.io/badge/Code%20Time-0%20secs-blue)
 
-![Profile Views](http://img.shields.io/badge/Profile%20Views-27-blue)
+![Profile Views](http://img.shields.io/badge/Profile%20Views-99-blue)
 
 **🐱 My GitHub Data** 
 
 > 📦 66.2 kB Used in GitHub's Storage 
  > 
-> 🏆 63 Contributions in the Year 2024
+> 🏆 0 Contributions in the Year 2024
  > 
 > 🚫 Not Opted to Hire
  > 
@@ -21,10 +21,10 @@ for freelance work? do reach, [email](mailto:ami@johncachy.us.kg) :)
 **I'm a Night 🦉** 
 
 ```text
-🌞 Morning                3 commits           █░░░░░░░░░░░░░░░░░░░░░░░░   04.55 % 
-🌆 Daytime                20 commits          ████████░░░░░░░░░░░░░░░░░   30.30 % 
-🌃 Evening                43 commits          ████████████████░░░░░░░░░   65.15 % 
-🌙 Night                  0 commits           ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
+🌞 Morning                0 commits           ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
+🌆 Daytime                16 commits          ██████░░░░░░░░░░░░░░░░░░░   24.24 % 
+🌃 Evening                45 commits          █████████████████░░░░░░░░   68.18 % 
+🌙 Night                  5 commits           ██░░░░░░░░░░░░░░░░░░░░░░░   07.58 % 
 ```
 📅 **I'm Most Productive on Saturday** 
 
@@ -32,8 +32,8 @@ for freelance work? do reach, [email](mailto:ami@johncachy.us.kg) :)
 Monday                   3 commits           █░░░░░░░░░░░░░░░░░░░░░░░░   04.55 % 
 Tuesday                  1 commits           ░░░░░░░░░░░░░░░░░░░░░░░░░   01.52 % 
 Wednesday                0 commits           ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
-Thursday                 14 commits          █████░░░░░░░░░░░░░░░░░░░░   21.21 % 
-Friday                   6 commits           ██░░░░░░░░░░░░░░░░░░░░░░░   09.09 % 
+Thursday                 9 commits           ███░░░░░░░░░░░░░░░░░░░░░░   13.64 % 
+Friday                   11 commits          ████░░░░░░░░░░░░░░░░░░░░░   16.67 % 
 Saturday                 36 commits          ██████████████░░░░░░░░░░░   54.55 % 
 Sunday                   6 commits           ██░░░░░░░░░░░░░░░░░░░░░░░   09.09 % 
 ```
@@ -42,7 +42,7 @@ Sunday                   6 commits           ██░░░░░░░░░�
 📊 **This Week I Spent My Time On** 
 
 ```text
-🕑︎ Time Zone: Asia/Shanghai
+🕑︎ Time Zone: Asia/Tokyo
 
 💬 Programming Languages: 
 No Activity Tracked This Week
@@ -74,7 +74,7 @@ Shell                    1 repo              ███░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/chinshunyu/chinshunyu/main/assets/bar_graph.png)
 
 
- Last Updated on 28/09/2024 11:58:58 UTC
+ Last Updated on 28/09/2024 12:20:41 UTC
 <!--END_SECTION:waka-->
 
 if you like what i do, maybe consider buying me a coffee/tea 🥺👉👈
