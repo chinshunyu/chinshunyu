@@ -2,9 +2,6 @@ for freelance work? do reach, [email](mailto:ami@johncachy.us.kg) :)
 
 📊 **this week i spent my time on:**
 <!--START_SECTION:waka-->
-
-
-
 <!--END_SECTION:waka-->
 
 if you like what i do, maybe consider buying me a coffee/tea 🥺👉👈
@@ -13,8 +10,8 @@ if you like what i do, maybe consider buying me a coffee/tea 🥺👉👈
 
 🚧 **my todoist stats:**
 
-<!-- <!-- TODO-IST::START -->
-<!-- <!-- TODO-IST::END -->
+<!-- TODO-IST:START -->
+<!-- TODO-IST:END -->
 
 📈 my github stats
 
