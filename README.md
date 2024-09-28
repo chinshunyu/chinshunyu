@@ -13,7 +13,9 @@ if you like what i do, maybe consider buying me a coffee/tea 🥺👉👈
 
 🚧 **my todoist stats:**
 
-<!-- <!-- TODO-IST::START --> <!-- <!-- TODO-IST::END -->
+<!-- <!-- TODO-IST::START -->
+<!-- <!-- TODO-IST::END -->
+
 📈 my github stats
 
 <p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=chinshunyu&show_icons=true&theme=gotham" alt="JohnCachy" />
