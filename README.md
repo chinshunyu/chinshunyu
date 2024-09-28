@@ -2,11 +2,6 @@ for freelance work? do reach, [email](mailto:ami@johncachy.us.kg) :)
 
 
 <!--START_SECTION:waka-->
-
-```txt
-No activity tracked
-```
-
 <!--END_SECTION:waka-->
 
 if you like what i do, maybe consider buying me a coffee/tea 🥺👉👈
