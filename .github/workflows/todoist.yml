@@ -6,13 +6,38 @@ on:
     # Runs every minute
     - cron: "* * * * *"
 
+# jobs:
+#   update-readme:
+#     name: Update todoist stats
+#     runs-on: ubuntu-latest
+#     steps:
+#       - uses: actions/checkout@v2
+#       - uses: abhisheknaiidu/todoist-readme@master
+#         with:
+#           TODOIST_API_KEY: ${{ secrets.TODOIST_API_KEY }}
+#           PREMIUM: ""
+
 jobs:
   update-readme:
     name: Update todoist stats
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: abhisheknaiidu/todoist-readme@master
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+      
+      - name: Update Todoist Readme
+        uses: abhisheknaiidu/todoist-readme@master
         with:
           TODOIST_API_KEY: ${{ secrets.TODOIST_API_KEY }}
           PREMIUM: ""
+          USERNAME: chinshunyu
+
+      - name: Commit and Push Changes
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        run: |
+          git config --global user.email "ami@johncachy.us.kg"
+          git config --global user.name "GitHub Actions Bot"
+          git add README.md
+          git commit -m "Updated Todoist stats"
+          git push "https://${GH_TOKEN}@github.com/${{ github.repository }}.git"
