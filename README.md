@@ -1,41 +1,7 @@
 for freelance work? do reach, [email](mailto:ami@johncachy.us.kg) :)
 
-📊 **this week i spent my time on:**
+
 <!--START_SECTION:waka-->
-**I'm a Night 🦉** 
-
-```text
-🌞 Morning                0 commits           ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
-🌆 Daytime                16 commits          ██████░░░░░░░░░░░░░░░░░░░   23.53 % 
-🌃 Evening                47 commits          █████████████████░░░░░░░░   69.12 % 
-🌙 Night                  5 commits           ██░░░░░░░░░░░░░░░░░░░░░░░   07.35 % 
-```
-
-
-📊 **This Week I Spent My Time On** 
-
-```text
-💬 Programming Languages: 
-No Activity Tracked This Week
-
-🔥 Editors: 
-No Activity Tracked This Week
-```
-
-**I Mostly Code in Python** 
-
-```text
-Python                   5 repos             ██████████████░░░░░░░░░░░   55.56 % 
-JavaScript               1 repo              ███░░░░░░░░░░░░░░░░░░░░░░   11.11 % 
-Vue                      1 repo              ███░░░░░░░░░░░░░░░░░░░░░░   11.11 % 
-Lua                      1 repo              ███░░░░░░░░░░░░░░░░░░░░░░   11.11 % 
-Shell                    1 repo              ███░░░░░░░░░░░░░░░░░░░░░░   11.11 % 
-```
-
-
-
-
- Last Updated on 28/09/2024 12:24:02 UTC
 <!--END_SECTION:waka-->
 
 if you like what i do, maybe consider buying me a coffee/tea 🥺👉👈
