@@ -1,4 +1,4 @@
-for freelance work? do reach, [email](mailto:ami@johncachy.us.kg) :)
+To get contact with me, [email](mailto:ami@johncachy.us.kg) :)
 
 
 <!--START_SECTION:waka-->
