@@ -3,7 +3,8 @@ name: Todoist Readme
 on:
   workflow_dispatch:
   schedule:
-    - cron: "30 18 * * *"
+    # - cron: "30 18 * * *"
+    - cron: "30 3,7,10,14,15 * * *"
 
 jobs:
   update-readme:
