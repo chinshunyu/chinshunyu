@@ -49,7 +49,7 @@ if you like what i do, maybe consider buying me a coffee/tea 🥺👉👈
 
 <!-- TODO-IST:START -->
 🏆  590 Karma Points           
-🌸  Completed 1 tasks today           
+🌸  Completed 0 tasks today           
 ✅  Completed 15 tasks so far           
 ⏳  Longest streak is 1 days
 <!-- TODO-IST:END -->
