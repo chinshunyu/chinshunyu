@@ -16,11 +16,10 @@ To get contact with me, [email](mailto:ami@johncachy.us.kg) :)
 
 ```text
 💬 Programming Languages: 
-Markdown                 12 mins             ██████████████████████░░░   89.32 % 
-Lua                      1 min               ███░░░░░░░░░░░░░░░░░░░░░░   10.68 % 
+No Activity Tracked This Week
 
 🔥 Editors: 
-Windsurf                 14 mins             █████████████████████████   100.00 % 
+No Activity Tracked This Week
 ```
 
 **I Mostly Code in Python** 
@@ -36,7 +35,7 @@ Shell                    1 repo              ██░░░░░░░░░�
 
 
 
- Last Updated on 04/01/2025 10:37:38 UTC
+ Last Updated on 05/01/2025 10:36:34 UTC
 <!--END_SECTION:waka-->
 
 if you like what i do, maybe consider buying me a coffee/tea 🥺👉👈
