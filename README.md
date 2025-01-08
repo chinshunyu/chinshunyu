@@ -16,10 +16,11 @@ To get contact with me, [email](mailto:ami@johncachy.us.kg) :)
 
 ```text
 💬 Programming Languages: 
-Python                   1 hr 30 mins        █████████████████████████   100.00 % 
+Python                   1 hr 47 mins        █████████████████████████   100.00 % 
 
 🔥 Editors: 
-Windsurf                 1 hr 30 mins        █████████████████████████   100.00 % 
+Windsurf                 1 hr 44 mins        ████████████████████████░   97.74 % 
+PyCharm                  2 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   02.26 % 
 ```
 
 **I Mostly Code in Python** 
@@ -35,7 +36,7 @@ Shell                    1 repo              ██░░░░░░░░░�
 
 
 
- Last Updated on 07/01/2025 10:40:57 UTC
+ Last Updated on 08/01/2025 10:38:23 UTC
 <!--END_SECTION:waka-->
 
 if you like what i do, maybe consider buying me a coffee/tea 🥺👉👈
