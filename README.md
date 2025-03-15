@@ -1,4 +1,4 @@
-To get contact with me, [email](mailto:ami@johncachy.us.kg) :)
+To get contact with me, E-mail me at [📧](mailto:johncachy@amiverse.uk) :)
 
 
 <!--START_SECTION:waka-->
