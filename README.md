@@ -24,7 +24,6 @@ HTML                     0 secs              ░░░░░░░░░░░�
 
 🔥 Editors: 
 VS Code                  18 hrs 52 mins      █████████████████████████   100.00 % 
-Antigravity              0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
 ```
 
 **I Mostly Code in Python** 
@@ -40,7 +39,7 @@ CSS                      1 repo              █░░░░░░░░░░�
 
 
 
- Last Updated on 08/12/2025 10:46:41 UTC
+ Last Updated on 09/12/2025 10:46:35 UTC
 <!--END_SECTION:waka-->
 
 if you like what i do, maybe consider buying me a coffee/tea 🥺👉👈
