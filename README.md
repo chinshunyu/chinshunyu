@@ -16,10 +16,15 @@ To get contact with me, E-mail me at [📧](mailto:johncachy@amiverse.uk) :)
 
 ```text
 💬 Programming Languages: 
-No Activity Tracked This Week
+Markdown                 2 hrs 29 mins       ███████████████░░░░░░░░░░   58.15 % 
+Python                   1 hr 11 mins        ███████░░░░░░░░░░░░░░░░░░   27.75 % 
+JSON                     20 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   08.06 % 
+SQL                      12 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.93 % 
+Bash                     2 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.10 % 
 
 🔥 Editors: 
-No Activity Tracked This Week
+Windsurf                 3 hrs 51 mins       ███████████████████████░░   90.49 % 
+VS Code                  24 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   09.51 % 
 ```
 
 **I Mostly Code in Python** 
@@ -35,7 +40,7 @@ CSS                      1 repo              █░░░░░░░░░░�
 
 
 
- Last Updated on 24/02/2026 11:11:29 UTC
+ Last Updated on 25/02/2026 11:13:21 UTC
 <!--END_SECTION:waka-->
 
 if you like what i do, maybe consider buying me a coffee/tea 🥺👉👈
