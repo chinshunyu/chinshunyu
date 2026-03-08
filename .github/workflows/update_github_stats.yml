@@ -2,7 +2,7 @@ name: GitHub Readme Stats
 
 on:
   schedule:
-    - cron: '0 */6 * * *'  # Every 6 hours
+    - cron: '0 14 * * *'  # Tokyo time 23:00
   workflow_dispatch:  # Manual trigger
 
 jobs:
