@@ -10,29 +10,31 @@ async function fetchTodoistStats(apiKey) {
   };
 
   try {
-    // Get productivity stats using the new unified API v1
-    console.log('Fetching productivity stats...');
-    const statsResponse = await fetch(`${baseUrl}/user/productivity_stats`, { headers });
-    
-    let productivityStats = {};
-    if (statsResponse.ok) {
-      productivityStats = await statsResponse.json();
-      console.log('Productivity stats response:', JSON.stringify(productivityStats, null, 2));
+    // Get user info - contains karma, completed_count, completed_today
+    console.log('Fetching user info...');
+    let userInfo = {};
+    const userResponse = await fetch(`${baseUrl}/user`, { headers });
+    if (userResponse.ok) {
+      userInfo = await userResponse.json();
+      console.log('User info:', JSON.stringify({
+        karma: userInfo.karma,
+        completed_count: userInfo.completed_count,
+        completed_today: userInfo.completed_today,
+        daily_goal: userInfo.daily_goal,
+        weekly_goal: userInfo.weekly_goal
+      }, null, 2));
     } else {
-      const errorText = await statsResponse.text();
-      console.log(`Productivity stats error: ${statsResponse.status} - ${errorText}`);
+      const errorText = await userResponse.text();
+      console.log(`User endpoint error: ${userResponse.status} - ${errorText}`);
     }
 
-    // Get active tasks count using the new unified API v1
+    // Get active tasks count
     console.log('Fetching tasks...');
     let totalActiveTasks = 0;
     const tasksResponse = await fetch(`${baseUrl}/tasks`, { headers });
     
     if (tasksResponse.ok) {
       const tasksData = await tasksResponse.json();
-      console.log('Tasks response type:', typeof tasksData, Array.isArray(tasksData) ? 'array' : 'object');
-      console.log('Tasks data keys:', Object.keys(tasksData));
-      // Handle paginated response
       totalActiveTasks = tasksData.results ? tasksData.results.length : (Array.isArray(tasksData) ? tasksData.length : 0);
       console.log('Total active tasks:', totalActiveTasks);
     } else {
@@ -40,39 +42,17 @@ async function fetchTodoistStats(apiKey) {
       console.log(`Tasks endpoint error: ${tasksResponse.status} - ${errorText}`);
     }
 
-    // Get user info
-    console.log('Fetching user info...');
-    let userInfo = {};
-    const userResponse = await fetch(`${baseUrl}/user`, { headers });
-    if (userResponse.ok) {
-      userInfo = await userResponse.json();
-      console.log('User info - karma:', userInfo.karma);
-    } else {
-      const errorText = await userResponse.text();
-      console.log(`User endpoint error: ${userResponse.status} - ${errorText}`);
-    }
-
-    // Extract stats from available data
-    const todayCompleted = productivityStats.days_items && productivityStats.days_items.length > 0 
-      ? productivityStats.days_items[0].total_completed || 0 
-      : 0;
-
-    console.log('Extracted stats:', {
-      karma: userInfo?.karma || productivityStats?.karma || 0,
-      todayCompleted,
-      totalCompleted: productivityStats?.completed_count || 0,
-      longestStreak: productivityStats?.goals?.max_daily_streak?.count || 0
-    });
-
-    return {
-      karmaPoints: userInfo?.karma || productivityStats?.karma || 0,
-      todayCompleted: todayCompleted,
-      totalCompleted: productivityStats?.completed_count || 0,
-      currentStreak: productivityStats?.goals?.current_daily_streak?.count || 0,
-      longestStreak: productivityStats?.goals?.max_daily_streak?.count || 0,
+    // Use data from user endpoint
+    const stats = {
+      karmaPoints: userInfo?.karma || 0,
+      todayCompleted: userInfo?.completed_today || 0,
+      totalCompleted: userInfo?.completed_count || 0,
       totalActiveTasks: totalActiveTasks,
       lastUpdated: new Date().toISOString()
     };
+
+    console.log('Final stats:', stats);
+    return stats;
   } catch (error) {
     core.setFailed(`Error fetching Todoist stats: ${error.message}`);
     throw error;
@@ -93,7 +73,7 @@ function generateStatsText(stats) {
   return `🏆 ${stats.karmaPoints} Karma Points           
 🌸 Completed ${stats.todayCompleted} tasks today           
 ✅ Completed ${stats.totalCompleted} tasks so far           
-⏳ Longest streak is ${stats.longestStreak} days`;
+📋 ${stats.totalActiveTasks} tasks remaining`;
 }
 
 async function updateReadme(statsText, githubToken) {
