@@ -3,64 +3,40 @@ const github = require('@actions/github');
 const fs = require('fs');
 
 async function fetchTodoistStats(apiKey) {
-  const syncUrl = 'https://api.todoist.com/sync/v9/sync';
+  const baseUrl = 'https://api.todoist.com/api/v1';
   const headers = {
     'Authorization': `Bearer ${apiKey}`,
-    'Content-Type': 'application/x-www-form-urlencoded'
+    'Content-Type': 'application/json'
   };
 
   try {
-    // Use sync API to get user data and productivity stats
-    const syncData = new URLSearchParams({
-      sync_token: '*',
-      resource_types: '["user", "user_settings"]'
-    });
-
-    const syncResponse = await fetch(syncUrl, {
-      method: 'POST',
-      headers: headers,
-      body: syncData
-    });
-
-    if (!syncResponse.ok) {
-      throw new Error(`Failed to fetch sync data: ${syncResponse.status} ${syncResponse.statusText}`);
-    }
-
-    const syncResult = await syncResponse.json();
-    const user = syncResult.user;
-
-    // Get productivity stats using the dedicated endpoint
-    const statsUrl = 'https://api.todoist.com/sync/v9/completed/get_stats';
-    const statsResponse = await fetch(statsUrl, { 
-      headers: {
-        'Authorization': `Bearer ${apiKey}`,
-        'Content-Type': 'application/json'
-      }
-    });
-
+    // Get productivity stats using the new unified API v1
+    const statsResponse = await fetch(`${baseUrl}/user/productivity_stats`, { headers });
+    
     let productivityStats = {};
     if (statsResponse.ok) {
       productivityStats = await statsResponse.json();
     } else {
-      console.log('Productivity stats endpoint not available, using basic user data');
+      console.log(`Productivity stats: ${statsResponse.status} - trying alternative approach`);
     }
 
-    // Get active tasks count
-    const tasksData = new URLSearchParams({
-      sync_token: '*',
-      resource_types: '["items"]'
-    });
-
-    const tasksResponse = await fetch(syncUrl, {
-      method: 'POST',
-      headers: headers,
-      body: tasksData
-    });
-
+    // Get active tasks count using the new unified API v1
     let totalActiveTasks = 0;
+    const tasksResponse = await fetch(`${baseUrl}/tasks`, { headers });
+    
     if (tasksResponse.ok) {
-      const tasksResult = await tasksResponse.json();
-      totalActiveTasks = tasksResult.items ? tasksResult.items.filter(item => !item.checked).length : 0;
+      const tasksData = await tasksResponse.json();
+      // Handle paginated response
+      totalActiveTasks = tasksData.results ? tasksData.results.length : (Array.isArray(tasksData) ? tasksData.length : 0);
+    } else {
+      console.log(`Tasks endpoint: ${tasksResponse.status}`);
+    }
+
+    // Get user info
+    let userInfo = {};
+    const userResponse = await fetch(`${baseUrl}/user`, { headers });
+    if (userResponse.ok) {
+      userInfo = await userResponse.json();
     }
 
     // Extract stats from available data
@@ -69,11 +45,11 @@ async function fetchTodoistStats(apiKey) {
       : 0;
 
     return {
-      karmaPoints: user?.karma || productivityStats.karma || 0,
+      karmaPoints: userInfo?.karma || productivityStats?.karma || 0,
       todayCompleted: todayCompleted,
-      totalCompleted: productivityStats.completed_count || 0,
-      currentStreak: productivityStats.goals?.current_daily_streak?.count || 0,
-      longestStreak: productivityStats.goals?.max_daily_streak?.count || 0,
+      totalCompleted: productivityStats?.completed_count || 0,
+      currentStreak: productivityStats?.goals?.current_daily_streak?.count || 0,
+      longestStreak: productivityStats?.goals?.max_daily_streak?.count || 0,
       totalActiveTasks: totalActiveTasks,
       lastUpdated: new Date().toISOString()
     };
