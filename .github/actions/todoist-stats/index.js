@@ -3,39 +3,77 @@ const github = require('@actions/github');
 const fs = require('fs');
 
 async function fetchTodoistStats(apiKey) {
-  const baseUrl = 'https://api.todoist.com/api/v1';
+  const syncUrl = 'https://api.todoist.com/sync/v9/sync';
   const headers = {
     'Authorization': `Bearer ${apiKey}`,
-    'Content-Type': 'application/json'
+    'Content-Type': 'application/x-www-form-urlencoded'
   };
 
   try {
-    // Get productivity stats (includes karma, completed tasks, streaks)
-    const statsResponse = await fetch(`${baseUrl}/user/productivity_stats`, { headers });
-    if (!statsResponse.ok) {
-      throw new Error(`Failed to fetch productivity stats: ${statsResponse.status} ${statsResponse.statusText}`);
+    // Use sync API to get user data and productivity stats
+    const syncData = new URLSearchParams({
+      sync_token: '*',
+      resource_types: '["user", "user_settings"]'
+    });
+
+    const syncResponse = await fetch(syncUrl, {
+      method: 'POST',
+      headers: headers,
+      body: syncData
+    });
+
+    if (!syncResponse.ok) {
+      throw new Error(`Failed to fetch sync data: ${syncResponse.status} ${syncResponse.statusText}`);
     }
-    const productivityStats = await statsResponse.json();
+
+    const syncResult = await syncResponse.json();
+    const user = syncResult.user;
+
+    // Get productivity stats using the dedicated endpoint
+    const statsUrl = 'https://api.todoist.com/sync/v9/completed/get_stats';
+    const statsResponse = await fetch(statsUrl, { 
+      headers: {
+        'Authorization': `Bearer ${apiKey}`,
+        'Content-Type': 'application/json'
+      }
+    });
+
+    let productivityStats = {};
+    if (statsResponse.ok) {
+      productivityStats = await statsResponse.json();
+    } else {
+      console.log('Productivity stats endpoint not available, using basic user data');
+    }
 
     // Get active tasks count
-    const tasksResponse = await fetch(`${baseUrl}/tasks`, { headers });
-    if (!tasksResponse.ok) {
-      throw new Error(`Failed to fetch tasks: ${tasksResponse.status} ${tasksResponse.statusText}`);
-    }
-    const tasksData = await tasksResponse.json();
-    const totalActiveTasks = tasksData.length;
+    const tasksData = new URLSearchParams({
+      sync_token: '*',
+      resource_types: '["items"]'
+    });
 
-    // Calculate today's completed tasks from daily stats
+    const tasksResponse = await fetch(syncUrl, {
+      method: 'POST',
+      headers: headers,
+      body: tasksData
+    });
+
+    let totalActiveTasks = 0;
+    if (tasksResponse.ok) {
+      const tasksResult = await tasksResponse.json();
+      totalActiveTasks = tasksResult.items ? tasksResult.items.filter(item => !item.checked).length : 0;
+    }
+
+    // Extract stats from available data
     const todayCompleted = productivityStats.days_items && productivityStats.days_items.length > 0 
       ? productivityStats.days_items[0].total_completed || 0 
       : 0;
 
     return {
-      karmaPoints: productivityStats.karma || 0,
+      karmaPoints: user?.karma || productivityStats.karma || 0,
       todayCompleted: todayCompleted,
       totalCompleted: productivityStats.completed_count || 0,
-      currentStreak: productivityStats.current_daily_streak || 0,
-      longestStreak: productivityStats.max_daily_streak || 0,
+      currentStreak: productivityStats.goals?.current_daily_streak?.count || 0,
+      longestStreak: productivityStats.goals?.max_daily_streak?.count || 0,
       totalActiveTasks: totalActiveTasks,
       lastUpdated: new Date().toISOString()
     };
