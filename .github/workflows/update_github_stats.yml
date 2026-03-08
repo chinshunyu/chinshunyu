@@ -1,0 +1,31 @@
+name: GitHub Readme Stats
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'  # Every 6 hours
+  workflow_dispatch:  # Manual trigger
+
+jobs:
+  update-stats:
+    name: Update GitHub Stats
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Generate Stats Card
+        uses: stats-organization/github-readme-stats-action@v1
+        with:
+          card: stats
+          options: username=chinshunyu&show_icons=true&theme=gotham
+          output: github-stats.svg
+      
+      - name: Commit changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add github-stats.svg
+          git diff --staged --quiet || git commit -m "📊 Update GitHub stats"
+          git push
