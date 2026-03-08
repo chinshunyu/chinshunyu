@@ -20,12 +20,12 @@ jobs:
         with:
           card: stats
           options: username=chinshunyu&show_icons=true&theme=gotham
-          output: github-stats.svg
+          path: github-stats.svg
       
       - name: Commit changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add github-stats.svg
+          git add -A
           git diff --staged --quiet || git commit -m "📊 Update GitHub stats"
           git push
