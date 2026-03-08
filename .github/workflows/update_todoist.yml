@@ -1,18 +1,41 @@
+# name: Todoist Readme
+
+# on:
+#   workflow_dispatch:
+#   schedule:
+#     # - cron: "30 18 * * *"
+#     - cron: "30 3,7,10,14,15 * * *"
+
+# jobs:
+#   update-readme:
+#     name: Update todoist stats
+#     runs-on: ubuntu-latest
+#     steps:
+#       - uses: actions/checkout@v2
+#       - uses: chinshunyu/todoist-readme@master
+#         with:
+#           TODOIST_API_KEY: ${{ secrets.TODOIST_API_KEY }}
+#           PREMIUM: ""
+
+
 name: Todoist Readme
 
 on:
   workflow_dispatch:
   schedule:
-    # - cron: "30 18 * * *"
     - cron: "30 3,7,10,14,15 * * *"
 
 jobs:
   update-readme:
     name: Update todoist stats
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
-      - uses: actions/checkout@v2
-      - uses: chinshunyu/todoist-readme@master
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - uses: abhisheknaiidu/todoist-readme@master
         with:
           TODOIST_API_KEY: ${{ secrets.TODOIST_API_KEY }}
           PREMIUM: ""
