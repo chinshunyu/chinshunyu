@@ -52,7 +52,7 @@ if you like what i do, maybe consider buying me a coffee/tea 🥺👉👈
 
 <!-- TODO-IST:START -->
 🏆 2113 Karma Points           
-🌸 Completed 2 tasks today           
+🌸 Completed 0 tasks today           
 ✅ Completed 64 tasks so far           
 📋 20 tasks remaining
 <!-- TODO-IST:END -->
