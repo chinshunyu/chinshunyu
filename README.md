@@ -5,10 +5,10 @@ To get contact with me, E-mail me at [📧](mailto:watanabe_tohru@amiverse.uk) :
 **I'm a Night 🦉** 
 
 ```text
-🌞 Morning                1 commits           ░░░░░░░░░░░░░░░░░░░░░░░░░   00.50 % 
-🌆 Daytime                39 commits          █████░░░░░░░░░░░░░░░░░░░░   19.31 % 
-🌃 Evening                108 commits         █████████████░░░░░░░░░░░░   53.47 % 
-🌙 Night                  54 commits          ███████░░░░░░░░░░░░░░░░░░   26.73 % 
+🌞 Morning                1 commits           ░░░░░░░░░░░░░░░░░░░░░░░░░   00.49 % 
+🌆 Daytime                39 commits          █████░░░░░░░░░░░░░░░░░░░░   19.12 % 
+🌃 Evening                109 commits         █████████████░░░░░░░░░░░░   53.43 % 
+🌙 Night                  55 commits          ███████░░░░░░░░░░░░░░░░░░   26.96 % 
 ```
 
 
@@ -16,30 +16,32 @@ To get contact with me, E-mail me at [📧](mailto:watanabe_tohru@amiverse.uk) :
 
 ```text
 💬 Programming Languages: 
-TypeScript               8 hrs 59 mins       ████████████████░░░░░░░░░   64.83 % 
-CSS                      2 hrs 2 mins        ████░░░░░░░░░░░░░░░░░░░░░   14.71 % 
-Other                    1 hr 37 mins        ███░░░░░░░░░░░░░░░░░░░░░░   11.66 % 
-Bash                     22 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.72 % 
-Markdown                 15 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.88 % 
+TypeScript               6 hrs 25 mins       ██████████████░░░░░░░░░░░   56.53 % 
+CSS                      1 hr 18 mins        ███░░░░░░░░░░░░░░░░░░░░░░   11.50 % 
+Other                    1 hr 17 mins        ███░░░░░░░░░░░░░░░░░░░░░░   11.41 % 
+Python                   1 hr                ██░░░░░░░░░░░░░░░░░░░░░░░   08.80 % 
+Markdown                 31 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.59 % 
 
 🔥 Editors: 
-VS Code                  13 hrs 52 mins      █████████████████████████   100.00 % 
+VS Code                  10 hrs 46 mins      ████████████████████████░   94.69 % 
+Windsurf                 33 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.94 % 
+Unknown Editor           2 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.37 % 
 ```
 
 **I Mostly Code in TypeScript** 
 
 ```text
-TypeScript               8 repos             ████████░░░░░░░░░░░░░░░░░   33.33 % 
-Python                   8 repos             ████████░░░░░░░░░░░░░░░░░   33.33 % 
-JavaScript               2 repos             ██░░░░░░░░░░░░░░░░░░░░░░░   08.33 % 
-Vue                      1 repo              █░░░░░░░░░░░░░░░░░░░░░░░░   04.17 % 
-CSS                      1 repo              █░░░░░░░░░░░░░░░░░░░░░░░░   04.17 % 
+TypeScript               9 repos             █████████░░░░░░░░░░░░░░░░   36.00 % 
+Python                   8 repos             ████████░░░░░░░░░░░░░░░░░   32.00 % 
+JavaScript               2 repos             ██░░░░░░░░░░░░░░░░░░░░░░░   08.00 % 
+Vue                      1 repo              █░░░░░░░░░░░░░░░░░░░░░░░░   04.00 % 
+CSS                      1 repo              █░░░░░░░░░░░░░░░░░░░░░░░░   04.00 % 
 ```
 
 
 
 
- Last Updated on 31/03/2026 11:25:53 UTC
+ Last Updated on 01/04/2026 11:28:52 UTC
 <!--END_SECTION:waka-->
 
 if you like what i do, maybe consider buying me a coffee/tea 🥺👉👈
