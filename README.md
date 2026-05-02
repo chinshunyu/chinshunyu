@@ -16,13 +16,10 @@ To get contact with me, E-mail me at [📧](mailto:watanabe_tohru@amiverse.uk) :
 
 ```text
 💬 Programming Languages: 
-Other                    30 mins             ███████████░░░░░░░░░░░░░░   45.10 % 
-JSON                     15 mins             ██████░░░░░░░░░░░░░░░░░░░   22.75 % 
-Python                   10 mins             ████░░░░░░░░░░░░░░░░░░░░░   16.43 % 
-Markdown                 10 mins             ████░░░░░░░░░░░░░░░░░░░░░   15.72 % 
+No Activity Tracked This Week
 
 🔥 Editors: 
-VS Code                  1 hr 6 mins         █████████████████████████   100.00 % 
+No Activity Tracked This Week
 ```
 
 **I Mostly Code in TypeScript** 
@@ -38,7 +35,7 @@ Vue                      1 repo              █░░░░░░░░░░�
 
 
 
- Last Updated on 01/05/2026 11:36:12 UTC
+ Last Updated on 02/05/2026 11:12:40 UTC
 <!--END_SECTION:waka-->
 
 if you like what i do, maybe consider buying me a coffee/tea 🥺👉👈
