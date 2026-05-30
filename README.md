@@ -50,10 +50,10 @@ if you like what i do, maybe consider buying me a coffee/tea 🥺👉👈
 🚧 **my todoist stats:**
 
 <!-- TODO-IST:START -->
-🏆 2180 Karma Points           
+🏆 2266 Karma Points           
 🌸 Completed 5 tasks today           
 ✅ Completed 69 tasks so far           
-📋 22 tasks remaining
+📋 23 tasks remaining
 <!-- TODO-IST:END -->
 
 📈 my github stats
