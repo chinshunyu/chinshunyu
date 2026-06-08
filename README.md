@@ -28,7 +28,7 @@ if you like what i do, maybe consider buying me a coffee/tea 🥺👉👈
 🏆 2283 Karma Points           
 🌸 Completed 0 tasks today           
 ✅ Completed 70 tasks so far           
-📋 22 tasks remaining
+📋 0 tasks remaining
 <!-- TODO-IST:END -->
 
 📈 my github stats
