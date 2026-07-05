@@ -16,14 +16,10 @@ To get contact with me, E-mail me at [📧](mailto:watanabe_tohru@amiverse.uk) :
 
 ```text
 💬 Programming Languages: 
-Markdown                 1 hr 16 mins        ███████████████████░░░░░░   74.36 % 
-Python                   19 mins             █████░░░░░░░░░░░░░░░░░░░░   19.51 % 
-Text                     4 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   04.20 % 
-Git Config               1 min               ░░░░░░░░░░░░░░░░░░░░░░░░░   01.34 % 
-JSON                     0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.44 % 
+No Activity Tracked This Week
 
 🔥 Editors: 
-VS Code                  1 hr 42 mins        █████████████████████████   100.00 % 
+No Activity Tracked This Week
 ```
 
 **I Mostly Code in Python** 
@@ -39,7 +35,7 @@ Shell                    1 repo              █░░░░░░░░░░�
 
 
 
- Last Updated on 04/07/2026 11:49:33 UTC
+ Last Updated on 05/07/2026 11:51:41 UTC
 <!--END_SECTION:waka-->
 
 <!-- if you like what i do, maybe consider buying me a coffee/tea 🥺👉👈
