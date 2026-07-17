@@ -47,10 +47,10 @@ Shell                    1 repo              █░░░░░░░░░░�
 🚧 **my todoist stats:**
 
 <!-- TODO-IST:START -->
-🏆 0 Karma Points           
+🏆 2331 Karma Points           
 🌸 Completed 0 tasks today           
-✅ Completed 0 tasks so far           
-📋 0 tasks remaining
+✅ Completed 70 tasks so far           
+📋 26 tasks remaining
 <!-- TODO-IST:END -->
 
 📈 my github stats
