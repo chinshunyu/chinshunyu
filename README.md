@@ -2,6 +2,8 @@ To get contact with me, E-mail me at [📧](mailto:watanabe_tohru@amiverse.uk) :
 
 
 <!--START_SECTION:waka-->
+![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-161%20hrs%2019%20mins-blue?style=flat)
+
 **I'm a Night 🦉** 
 
 ```text
@@ -22,6 +24,12 @@ No Activity Tracked This Week
 No Activity Tracked This Week
 ```
 
+🤖 **AI Coding This Week** 
+
+```text
+No AI Coding Activity Tracked This Week
+```
+
 **I Mostly Code in Python** 
 
 ```text
@@ -35,7 +43,7 @@ Shell                    1 repo              █░░░░░░░░░░�
 
 
 
- Last Updated on 27/07/2026 13:23:59 UTC
+ Last Updated on 28/07/2026 12:19:29 UTC
 <!--END_SECTION:waka-->
 
 <!-- if you like what i do, maybe consider buying me a coffee/tea 🥺👉👈
