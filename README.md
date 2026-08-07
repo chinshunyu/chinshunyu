@@ -2,8 +2,6 @@ To get contact with me, E-mail me at [📧](mailto:watanabe_tohru@amiverse.uk) :
 
 
 <!--START_SECTION:waka-->
-![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-161%20hrs%2019%20mins-blue?style=flat)
-
 **I'm a Night 🦉** 
 
 ```text
@@ -43,7 +41,7 @@ Shell                    1 repo              █░░░░░░░░░░�
 
 
 
- Last Updated on 06/08/2026 12:24:00 UTC
+ Last Updated on 07/08/2026 11:14:11 UTC
 <!--END_SECTION:waka-->
 
 <!-- if you like what i do, maybe consider buying me a coffee/tea 🥺👉👈
