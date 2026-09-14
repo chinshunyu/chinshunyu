@@ -21,6 +21,8 @@ jobs:
           card: stats
           options: username=chinshunyu&show_icons=true&theme=gotham
           path: github-stats.svg
+          token: ${{ secrets.GH_TOKEN }}
+          fail_on_error: "true"
       
       - name: Commit changes
         run: |
