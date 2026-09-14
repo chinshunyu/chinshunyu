@@ -13,7 +13,7 @@ jobs:
       contents: write
     
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       
       - name: Generate Stats Card
         uses: stats-organization/github-readme-stats-action@v1
@@ -22,7 +22,6 @@ jobs:
           options: username=chinshunyu&show_icons=true&theme=gotham
           path: github-stats.svg
           token: ${{ secrets.GH_TOKEN }}
-          fail_on_error: "true"
       
       - name: Commit changes
         run: |
