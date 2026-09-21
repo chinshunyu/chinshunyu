@@ -18,14 +18,14 @@ To get contact with me, E-mail me at [📧](mailto:watanabe_tohru@amiverse.uk) :
 
 ```text
 💬 Programming Languages: 
-Python                   15 mins             ███████████████░░░░░░░░░░   60.84 % 
-Markdown                 4 mins              █████░░░░░░░░░░░░░░░░░░░░   19.42 % 
-JSON                     3 mins              ████░░░░░░░░░░░░░░░░░░░░░   15.53 % 
-Git Config               0 secs              █░░░░░░░░░░░░░░░░░░░░░░░░   02.90 % 
-JavaScript               0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.97 % 
+Python                   31 mins             ███████████████████░░░░░░   75.15 % 
+Markdown                 4 mins              ███░░░░░░░░░░░░░░░░░░░░░░   11.70 % 
+JSON                     3 mins              ██░░░░░░░░░░░░░░░░░░░░░░░   09.29 % 
+Git Config               0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.74 % 
+HTML                     0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.33 % 
 
 🔥 Editors: 
-VS Code                  25 mins             █████████████████████████   100.00 % 
+VS Code                  42 mins             █████████████████████████   100.00 % 
 ```
 
 🤖 **AI Coding This Week** 
@@ -47,7 +47,7 @@ Shell                    1 repo              █░░░░░░░░░░�
 
 
 
- Last Updated on 20/09/2026 14:17:58 UTC
+ Last Updated on 21/09/2026 16:32:07 UTC
 <!--END_SECTION:waka-->
 
 <!-- if you like what i do, maybe consider buying me a coffee/tea 🥺👉👈
