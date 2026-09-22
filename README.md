@@ -2,7 +2,7 @@ To get contact with me, E-mail me at [📧](mailto:watanabe_tohru@amiverse.uk) :
 
 
 <!--START_SECTION:waka-->
-![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-161%20hrs%2019%20mins-blue?style=flat)
+![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-161%20hrs%2021%20mins-blue?style=flat)
 
 **I'm a Night 🦉** 
 
@@ -18,20 +18,34 @@ To get contact with me, E-mail me at [📧](mailto:watanabe_tohru@amiverse.uk) :
 
 ```text
 💬 Programming Languages: 
-Python                   31 mins             ███████████████████░░░░░░   75.15 % 
-Markdown                 4 mins              ███░░░░░░░░░░░░░░░░░░░░░░   11.70 % 
-JSON                     3 mins              ██░░░░░░░░░░░░░░░░░░░░░░░   09.29 % 
-Git Config               0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.74 % 
-HTML                     0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.33 % 
+Python                   37 mins             ███████████████████░░░░░░   74.35 % 
+JSON                     6 mins              ███░░░░░░░░░░░░░░░░░░░░░░   12.54 % 
+JavaScript               4 mins              ██░░░░░░░░░░░░░░░░░░░░░░░   08.66 % 
+Markdown                 0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.92 % 
+Git Config               0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.44 % 
 
 🔥 Editors: 
-VS Code                  42 mins             █████████████████████████   100.00 % 
+VS Code                  50 mins             █████████████████████████   100.00 % 
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-No AI Coding Activity Tracked This Week
+⏱ AI Coding Time: 2 mins (4.2%)
+
+✍️ 0 lines written by AI, 34 lines written by hand (0.0% AI-written)
+
+🔤 0 Input Tokens, 0 Output Tokens
+
+💵 $0.00 Estimated AI Cost This Week
+
+🧠 2 AI Sessions, 2 AI Prompts
+
+🔎 AI Coding Insights:
+🧑‍💻 Mostly Hands-On — 0.0% of written lines came from AI
+📝 Concise Prompter — average 4 characters per prompt
+🎯 One-Shot Prompter — average 1 prompts per session
+🔍 Hands-On Reviewer — 100.0% of changed lines were hand-edited
 ```
 
 **I Mostly Code in Python** 
@@ -47,7 +61,7 @@ Shell                    1 repo              █░░░░░░░░░░�
 
 
 
- Last Updated on 21/09/2026 16:32:07 UTC
+ Last Updated on 22/09/2026 15:05:03 UTC
 <!--END_SECTION:waka-->
 
 <!-- if you like what i do, maybe consider buying me a coffee/tea 🥺👉👈
