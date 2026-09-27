@@ -18,22 +18,22 @@ To get contact with me, E-mail me at [📧](mailto:watanabe_tohru@amiverse.uk) :
 
 ```text
 💬 Programming Languages: 
-Python                   37 mins             ███████████████████░░░░░░   74.35 % 
-JSON                     6 mins              ███░░░░░░░░░░░░░░░░░░░░░░   12.54 % 
-JavaScript               4 mins              ██░░░░░░░░░░░░░░░░░░░░░░░   08.66 % 
-Markdown                 0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.92 % 
-Git Config               0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.44 % 
+Python                   22 mins             ████████████████░░░░░░░░░   64.63 % 
+JSON                     6 mins              █████░░░░░░░░░░░░░░░░░░░░   18.32 % 
+JavaScript               4 mins              ███░░░░░░░░░░░░░░░░░░░░░░   12.64 % 
+Markdown                 0 secs              █░░░░░░░░░░░░░░░░░░░░░░░░   02.80 % 
+HTML                     0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.61 % 
 
 🔥 Editors: 
-VS Code                  50 mins             █████████████████████████   100.00 % 
+VS Code                  34 mins             █████████████████████████   100.00 % 
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 2 mins (4.2%)
+⏱ AI Coding Time: 2 mins (6.13%)
 
-✍️ 0 lines written by AI, 34 lines written by hand (0.0% AI-written)
+✍️ 0 lines written by AI, 29 lines written by hand (0.0% AI-written)
 
 🔤 0 Input Tokens, 0 Output Tokens
 
@@ -61,7 +61,7 @@ Shell                    1 repo              █░░░░░░░░░░�
 
 
 
- Last Updated on 26/09/2026 14:36:59 UTC
+ Last Updated on 27/09/2026 15:13:25 UTC
 <!--END_SECTION:waka-->
 
 <!-- if you like what i do, maybe consider buying me a coffee/tea 🥺👉👈
