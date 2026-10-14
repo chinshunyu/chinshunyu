@@ -18,37 +18,37 @@ To get contact with me, E-mail me at [📧](mailto:watanabe_tohru@amiverse.uk) :
 
 ```text
 💬 Programming Languages: 
-Python                   1 hr 21 mins        ██████████░░░░░░░░░░░░░░░   40.90 % 
-Markdown                 1 hr 14 mins        █████████░░░░░░░░░░░░░░░░   37.55 % 
-Bash                     20 mins             ███░░░░░░░░░░░░░░░░░░░░░░   10.43 % 
-TypeScript               10 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.33 % 
-Other                    10 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.04 % 
+Markdown                 1 hr 6 mins         ██████████████░░░░░░░░░░░   54.96 % 
+Python                   33 mins             ███████░░░░░░░░░░░░░░░░░░   27.34 % 
+TypeScript               10 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   08.70 % 
+Other                    10 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   08.23 % 
+CSS                      0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.40 % 
 
 🔥 Editors: 
-VS Code                  2 hrs 58 mins       ██████████████████████░░░   89.52 % 
-Claude Code              20 mins             ███░░░░░░░░░░░░░░░░░░░░░░   10.48 % 
+VS Code                  1 hr 41 mins        █████████████████████░░░░   82.89 % 
+Claude Code              20 mins             ████░░░░░░░░░░░░░░░░░░░░░   17.11 % 
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 42 mins (21.18%)
+⏱ AI Coding Time: 42 mins (34.59%)
 
-✍️ 0 lines written by AI, 458 lines written by hand (0.0% AI-written)
+✍️ 0 lines written by AI, 236 lines written by hand (0.0% AI-written)
 
 🔤 304,643 Input Tokens, 10,860 Output Tokens
 
 💵 $0.67 Estimated AI Cost This Week
 
-🧠 11 AI Sessions, 25 AI Prompts
+🧠 9 AI Sessions, 23 AI Prompts
 
 K                        0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
 Qwen                     0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
 
 🔎 AI Coding Insights:
 🧑‍💻 Mostly Hands-On — 0.0% of written lines came from AI
-📝 Concise Prompter — average 240 characters per prompt
-🔁 Iterative Prompter — average 2 prompts per session
+📝 Concise Prompter — average 254 characters per prompt
+🔁 Iterative Prompter — average 3 prompts per session
 🔍 Hands-On Reviewer — 100.0% of changed lines were hand-edited
 ```
 
@@ -65,7 +65,7 @@ Shell                    1 repo              █░░░░░░░░░░�
 
 
 
- Last Updated on 13/10/2026 17:41:58 UTC
+ Last Updated on 14/10/2026 15:17:55 UTC
 <!--END_SECTION:waka-->
 
 <!-- if you like what i do, maybe consider buying me a coffee/tea 🥺👉👈
