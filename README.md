@@ -2,7 +2,7 @@ To get contact with me, E-mail me at [📧](mailto:watanabe_tohru@amiverse.uk) :
 
 
 <!--START_SECTION:waka-->
-![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-162%20hrs%2026%20mins-blue?style=flat)
+![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-162%20hrs%2041%20mins-blue?style=flat)
 
 **I'm a Night 🦉** 
 
@@ -18,36 +18,37 @@ To get contact with me, E-mail me at [📧](mailto:watanabe_tohru@amiverse.uk) :
 
 ```text
 💬 Programming Languages: 
-Markdown                 1 hr 6 mins         ███████████░░░░░░░░░░░░░░   43.24 % 
-Python                   33 mins             █████░░░░░░░░░░░░░░░░░░░░   21.51 % 
-JSON                     31 mins             █████░░░░░░░░░░░░░░░░░░░░   20.58 % 
-Other                    11 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   07.21 % 
-TypeScript               10 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   06.85 % 
+JSON                     1 hr 18 mins        ██████████░░░░░░░░░░░░░░░   38.81 % 
+Markdown                 1 hr 6 mins         ████████░░░░░░░░░░░░░░░░░   33.32 % 
+Python                   33 mins             ████░░░░░░░░░░░░░░░░░░░░░   16.57 % 
+Other                    11 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.55 % 
+TypeScript               10 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.27 % 
 
 🔥 Editors: 
-VS Code                  2 hrs 14 mins       ██████████████████████░░░   86.54 % 
-Claude Code              20 mins             ███░░░░░░░░░░░░░░░░░░░░░░   13.46 % 
+VS Code                  2 hrs 59 mins       ██████████████████████░░░   89.46 % 
+Claude Code              21 mins             ███░░░░░░░░░░░░░░░░░░░░░░   10.54 % 
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 1 hr 5 mins (42.22%)
+⏱ AI Coding Time: 1 hr 19 mins (39.72%)
 
-✍️ 0 lines written by AI, 236 lines written by hand (0.0% AI-written)
+✍️ 0 lines written by AI, 413 lines written by hand (0.0% AI-written)
 
-🔤 432,879 Input Tokens, 22,676 Output Tokens
+🔤 464,135 Input Tokens, 22,900 Output Tokens
 
-💵 $2.14 Estimated AI Cost This Week
+💵 $2.24 Estimated AI Cost This Week
 
-🧠 12 AI Sessions, 32 AI Prompts
+🧠 17 AI Sessions, 45 AI Prompts
 
 K                        0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
 Qwen                     0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
+DeepSeek                 0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
 
 🔎 AI Coding Insights:
 🧑‍💻 Mostly Hands-On — 0.0% of written lines came from AI
-📝 Concise Prompter — average 208 characters per prompt
+📝 Concise Prompter — average 150 characters per prompt
 🔁 Iterative Prompter — average 3 prompts per session
 🔍 Hands-On Reviewer — 100.0% of changed lines were hand-edited
 ```
@@ -65,7 +66,7 @@ Shell                    1 repo              █░░░░░░░░░░�
 
 
 
- Last Updated on 15/10/2026 15:10:20 UTC
+ Last Updated on 16/10/2026 14:57:05 UTC
 <!--END_SECTION:waka-->
 
 <!-- if you like what i do, maybe consider buying me a coffee/tea 🥺👉👈
