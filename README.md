@@ -18,37 +18,35 @@ To get contact with me, E-mail me at [📧](mailto:watanabe_tohru@amiverse.uk) :
 
 ```text
 💬 Programming Languages: 
-JSON                     1 hr 18 mins        ██████████░░░░░░░░░░░░░░░   38.81 % 
-Markdown                 1 hr 6 mins         ████████░░░░░░░░░░░░░░░░░   33.32 % 
-Python                   33 mins             ████░░░░░░░░░░░░░░░░░░░░░   16.57 % 
-Other                    11 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.55 % 
-TypeScript               10 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.27 % 
+JSON                     1 hr 18 mins        ███████████████████░░░░░░   75.39 % 
+Python                   17 mins             ████░░░░░░░░░░░░░░░░░░░░░   17.11 % 
+Other                    7 mins              ██░░░░░░░░░░░░░░░░░░░░░░░   07.50 % 
 
 🔥 Editors: 
-VS Code                  2 hrs 59 mins       ██████████████████████░░░   89.46 % 
-Claude Code              21 mins             ███░░░░░░░░░░░░░░░░░░░░░░   10.54 % 
+VS Code                  1 hr 28 mins        █████████████████████░░░░   85.07 % 
+Claude Code              15 mins             ████░░░░░░░░░░░░░░░░░░░░░   14.93 % 
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 1 hr 19 mins (39.72%)
+⏱ AI Coding Time: 1 hr 1 min (59.35%)
 
-✍️ 0 lines written by AI, 413 lines written by hand (0.0% AI-written)
+✍️ 0 lines written by AI, 177 lines written by hand (0.0% AI-written)
 
-🔤 464,135 Input Tokens, 22,900 Output Tokens
+🔤 327,196 Input Tokens, 21,076 Output Tokens
 
-💵 $2.24 Estimated AI Cost This Week
+💵 $2.09 Estimated AI Cost This Week
 
-🧠 17 AI Sessions, 45 AI Prompts
+🧠 11 AI Sessions, 33 AI Prompts
 
 K                        0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
-Qwen                     0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
 DeepSeek                 0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
+Qwen                     0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
 
 🔎 AI Coding Insights:
 🧑‍💻 Mostly Hands-On — 0.0% of written lines came from AI
-📝 Concise Prompter — average 150 characters per prompt
+📝 Concise Prompter — average 40 characters per prompt
 🔁 Iterative Prompter — average 3 prompts per session
 🔍 Hands-On Reviewer — 100.0% of changed lines were hand-edited
 ```
@@ -66,7 +64,7 @@ Shell                    1 repo              █░░░░░░░░░░�
 
 
 
- Last Updated on 17/10/2026 13:49:35 UTC
+ Last Updated on 18/10/2026 14:04:53 UTC
 <!--END_SECTION:waka-->
 
 <!-- if you like what i do, maybe consider buying me a coffee/tea 🥺👉👈
