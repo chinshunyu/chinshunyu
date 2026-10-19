@@ -18,27 +18,26 @@ To get contact with me, E-mail me at [📧](mailto:watanabe_tohru@amiverse.uk) :
 
 ```text
 💬 Programming Languages: 
-JSON                     1 hr 18 mins        ███████████████████░░░░░░   75.39 % 
-Python                   17 mins             ████░░░░░░░░░░░░░░░░░░░░░   17.11 % 
-Other                    7 mins              ██░░░░░░░░░░░░░░░░░░░░░░░   07.50 % 
+JSON                     1 hr 18 mins        █████████████████████████   98.56 % 
+Other                    1 min               ░░░░░░░░░░░░░░░░░░░░░░░░░   01.44 % 
 
 🔥 Editors: 
-VS Code                  1 hr 28 mins        █████████████████████░░░░   85.07 % 
-Claude Code              15 mins             ████░░░░░░░░░░░░░░░░░░░░░   14.93 % 
+VS Code                  1 hr 18 mins        █████████████████████████   98.93 % 
+Claude Code              0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.07 % 
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 1 hr 1 min (59.35%)
+⏱ AI Coding Time: 37 mins (47.61%)
 
 ✍️ 0 lines written by AI, 177 lines written by hand (0.0% AI-written)
 
-🔤 327,196 Input Tokens, 21,076 Output Tokens
+🔤 159,492 Input Tokens, 12,040 Output Tokens
 
-💵 $2.09 Estimated AI Cost This Week
+💵 $1.69 Estimated AI Cost This Week
 
-🧠 11 AI Sessions, 33 AI Prompts
+🧠 8 AI Sessions, 22 AI Prompts
 
 K                        0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
 DeepSeek                 0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
@@ -64,7 +63,7 @@ Shell                    1 repo              █░░░░░░░░░░�
 
 
 
- Last Updated on 18/10/2026 14:04:53 UTC
+ Last Updated on 19/10/2026 17:03:36 UTC
 <!--END_SECTION:waka-->
 
 <!-- if you like what i do, maybe consider buying me a coffee/tea 🥺👉👈
