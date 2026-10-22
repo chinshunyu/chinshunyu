@@ -18,34 +18,31 @@ To get contact with me, E-mail me at [📧](mailto:watanabe_tohru@amiverse.uk) :
 
 ```text
 💬 Programming Languages: 
-JSON                     1 hr 18 mins        █████████████████████████   98.56 % 
-Other                    1 min               ░░░░░░░░░░░░░░░░░░░░░░░░░   01.44 % 
+JSON                     46 mins             █████████████████████████   100.00 % 
 
 🔥 Editors: 
-VS Code                  1 hr 18 mins        █████████████████████████   98.93 % 
-Claude Code              0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.07 % 
+VS Code                  45 mins             █████████████████████████   99.27 % 
+Claude Code              0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.73 % 
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 37 mins (47.61%)
+⏱ AI Coding Time: 14 mins (31.32%)
 
 ✍️ 0 lines written by AI, 177 lines written by hand (0.0% AI-written)
 
-🔤 159,492 Input Tokens, 12,040 Output Tokens
+🔤 31,256 Input Tokens, 224 Output Tokens
 
-💵 $1.69 Estimated AI Cost This Week
+💵 $0.10 Estimated AI Cost This Week
 
-🧠 8 AI Sessions, 22 AI Prompts
+🧠 5 AI Sessions, 13 AI Prompts
 
-K                        0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
 DeepSeek                 0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
-Qwen                     0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
 
 🔎 AI Coding Insights:
 🧑‍💻 Mostly Hands-On — 0.0% of written lines came from AI
-📝 Concise Prompter — average 40 characters per prompt
+📝 Concise Prompter — average 7 characters per prompt
 🔁 Iterative Prompter — average 3 prompts per session
 🔍 Hands-On Reviewer — 100.0% of changed lines were hand-edited
 ```
@@ -63,7 +60,7 @@ Shell                    1 repo              █░░░░░░░░░░�
 
 
 
- Last Updated on 21/10/2026 15:26:57 UTC
+ Last Updated on 22/10/2026 15:25:55 UTC
 <!--END_SECTION:waka-->
 
 <!-- if you like what i do, maybe consider buying me a coffee/tea 🥺👉👈
