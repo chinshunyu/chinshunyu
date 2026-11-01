@@ -2,15 +2,15 @@ To get contact with me, E-mail me at [📧](mailto:watanabe_tohru@amiverse.uk) :
 
 
 <!--START_SECTION:waka-->
-![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-162%20hrs%2046%20mins-blue?style=flat)
+![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-164%20hrs%2048%20mins-blue?style=flat)
 
 **I'm a Night 🦉** 
 
 ```text
-🌞 Morning                3 commits           ░░░░░░░░░░░░░░░░░░░░░░░░░   01.35 % 
-🌆 Daytime                46 commits          █████░░░░░░░░░░░░░░░░░░░░   20.63 % 
-🌃 Evening                116 commits         █████████████░░░░░░░░░░░░   52.02 % 
-🌙 Night                  58 commits          ███████░░░░░░░░░░░░░░░░░░   26.01 % 
+🌞 Morning                3 commits           ░░░░░░░░░░░░░░░░░░░░░░░░░   01.34 % 
+🌆 Daytime                46 commits          █████░░░░░░░░░░░░░░░░░░░░   20.54 % 
+🌃 Evening                116 commits         █████████████░░░░░░░░░░░░   51.79 % 
+🌙 Night                  59 commits          ███████░░░░░░░░░░░░░░░░░░   26.34 % 
 ```
 
 
@@ -18,48 +18,53 @@ To get contact with me, E-mail me at [📧](mailto:watanabe_tohru@amiverse.uk) :
 
 ```text
 💬 Programming Languages: 
-JSON                     5 mins              █████████████████████████   100.00 % 
+Markdown                 1 hr 46 mins        █████████████████░░░░░░░░   66.63 % 
+Python                   32 mins             █████░░░░░░░░░░░░░░░░░░░░   20.08 % 
+CSS                      11 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   07.45 % 
+TypeScript               5 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   03.46 % 
+Text                     3 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   02.35 % 
 
 🔥 Editors: 
-VS Code                  5 mins              █████████████████████████   100.00 % 
+VS Code                  1 hr 46 mins        █████████████████░░░░░░░░   66.73 % 
+Claude Code              53 mins             ████████░░░░░░░░░░░░░░░░░   33.27 % 
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 5 mins (100.0%)
+⏱ AI Coding Time: 2 hrs 1 min (76.14%)
 
-✍️ 0 lines written by AI, 0 lines written by hand (0% AI-written)
+✍️ 1,005 lines written by AI, 11 lines written by hand (98.92% AI-written)
 
-🔤 29,921 Input Tokens, 74 Output Tokens
+🔤 691,596 Input Tokens, 71,691 Output Tokens
 
-💵 $0.09 Estimated AI Cost This Week
+💵 $24.70 Estimated AI Cost This Week
 
-🧠 1 AI Sessions, 12 AI Prompts
+🧠 5 AI Sessions, 27 AI Prompts
 
-K                        0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
+K                        1,044 lines         █████████████████████████   100.00 % 
 
 🔎 AI Coding Insights:
-🧑‍💻 Mostly Hands-On — 0% of written lines came from AI
-📝 Concise Prompter — average 3 characters per prompt
-🔁 Iterative Prompter — average 12 prompts per session
-🚀 High AI Trust — 0% of changed lines were hand-edited
+🤖 AI-Driven — 98.92% of written lines came from AI
+📚 Verbose Prompter — average 1,656 characters per prompt
+🔁 Iterative Prompter — average 5 prompts per session
+🚀 High AI Trust — 2.52% of changed lines were hand-edited
 ```
 
 **I Mostly Code in Python** 
 
 ```text
-Python                   9 repos             ████████░░░░░░░░░░░░░░░░░   32.14 % 
-TypeScript               9 repos             ████████░░░░░░░░░░░░░░░░░   32.14 % 
-Vue                      2 repos             ██░░░░░░░░░░░░░░░░░░░░░░░   07.14 % 
-JavaScript               2 repos             ██░░░░░░░░░░░░░░░░░░░░░░░   07.14 % 
-Shell                    1 repo              █░░░░░░░░░░░░░░░░░░░░░░░░   03.57 % 
+Python                   10 repos            █████████░░░░░░░░░░░░░░░░   34.48 % 
+TypeScript               9 repos             ████████░░░░░░░░░░░░░░░░░   31.03 % 
+Vue                      2 repos             ██░░░░░░░░░░░░░░░░░░░░░░░   06.90 % 
+JavaScript               2 repos             ██░░░░░░░░░░░░░░░░░░░░░░░   06.90 % 
+Shell                    1 repo              █░░░░░░░░░░░░░░░░░░░░░░░░   03.45 % 
 ```
 
 
 
 
- Last Updated on 28/10/2026 16:44:46 UTC
+ Last Updated on 01/11/2026 16:55:03 UTC
 <!--END_SECTION:waka-->
 
 <!-- if you like what i do, maybe consider buying me a coffee/tea 🥺👉👈
