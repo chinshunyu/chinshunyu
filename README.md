@@ -18,37 +18,16 @@ To get contact with me, E-mail me at [📧](mailto:watanabe_tohru@amiverse.uk) :
 
 ```text
 💬 Programming Languages: 
-Markdown                 1 hr 46 mins        █████████████████░░░░░░░░   66.63 % 
-Python                   32 mins             █████░░░░░░░░░░░░░░░░░░░░   20.08 % 
-CSS                      11 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   07.45 % 
-TypeScript               5 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   03.46 % 
-Text                     3 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   02.35 % 
+No Activity Tracked This Week
 
 🔥 Editors: 
-VS Code                  1 hr 46 mins        █████████████████░░░░░░░░   66.73 % 
-Claude Code              53 mins             ████████░░░░░░░░░░░░░░░░░   33.27 % 
+No Activity Tracked This Week
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-⏱ AI Coding Time: 2 hrs 1 min (76.14%)
-
-✍️ 1,005 lines written by AI, 11 lines written by hand (98.92% AI-written)
-
-🔤 691,596 Input Tokens, 71,691 Output Tokens
-
-💵 $24.70 Estimated AI Cost This Week
-
-🧠 5 AI Sessions, 27 AI Prompts
-
-K                        1,044 lines         █████████████████████████   100.00 % 
-
-🔎 AI Coding Insights:
-🤖 AI-Driven — 98.92% of written lines came from AI
-📚 Verbose Prompter — average 1,656 characters per prompt
-🔁 Iterative Prompter — average 5 prompts per session
-🚀 High AI Trust — 2.52% of changed lines were hand-edited
+No AI Coding Activity Tracked This Week
 ```
 
 **I Mostly Code in Python** 
@@ -64,7 +43,7 @@ Shell                    1 repo              █░░░░░░░░░░�
 
 
 
- Last Updated on 01/11/2026 16:55:03 UTC
+ Last Updated on 07/11/2026 16:33:29 UTC
 <!--END_SECTION:waka-->
 
 <!-- if you like what i do, maybe consider buying me a coffee/tea 🥺👉👈
