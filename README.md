@@ -2,7 +2,7 @@ To get contact with me, E-mail me at [📧](mailto:watanabe_tohru@amiverse.uk) :
 
 
 <!--START_SECTION:waka-->
-![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-164%20hrs%2048%20mins-blue?style=flat)
+![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-165%20hrs%2025%20mins-blue?style=flat)
 
 **I'm a Night 🦉** 
 
@@ -18,16 +18,36 @@ To get contact with me, E-mail me at [📧](mailto:watanabe_tohru@amiverse.uk) :
 
 ```text
 💬 Programming Languages: 
-No Activity Tracked This Week
+Python                   48 mins             █████████████████████████   98.97 % 
+Bash                     0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.86 % 
+Text                     0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.16 % 
 
 🔥 Editors: 
-No Activity Tracked This Week
+Claude Code              31 mins             ████████████████░░░░░░░░░   65.18 % 
+VS Code                  16 mins             █████████░░░░░░░░░░░░░░░░   34.82 % 
 ```
 
 🤖 **AI Coding This Week** 
 
 ```text
-No AI Coding Activity Tracked This Week
+⏱ AI Coding Time: 37 mins (77.67%)
+
+✍️ 0 lines written by AI, 3 lines written by hand (0.0% AI-written)
+
+🔤 529,380 Input Tokens, 5,552 Output Tokens
+
+💵 $2.85 Estimated AI Cost This Week
+
+🧠 1 AI Sessions, 12 AI Prompts
+
+GLM                      0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
+K                        0 lines             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
+
+🔎 AI Coding Insights:
+🧑‍💻 Mostly Hands-On — 0.0% of written lines came from AI
+📝 Concise Prompter — average 29 characters per prompt
+🔁 Iterative Prompter — average 12 prompts per session
+🔍 Hands-On Reviewer — 100.0% of changed lines were hand-edited
 ```
 
 **I Mostly Code in Python** 
@@ -43,7 +63,7 @@ Shell                    1 repo              █░░░░░░░░░░�
 
 
 
- Last Updated on 25/11/2026 20:03:38 UTC
+ Last Updated on 26/11/2026 19:46:39 UTC
 <!--END_SECTION:waka-->
 
 <!-- if you like what i do, maybe consider buying me a coffee/tea 🥺👉👈
